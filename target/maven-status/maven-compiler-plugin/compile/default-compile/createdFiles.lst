@@ -18,6 +18,7 @@ com\wallet\dto\CreateWalletRequest$CreateWalletRequestBuilder.class
 com\wallet\dto\TransactionResponse.class
 com\wallet\dto\TransactionRequest.class
 com\wallet\dto\TransferRequest.class
+com\wallet\service\impl\WalletServiceImpl.class
 com\wallet\exception\InvalidTransactionException.class
 com\wallet\constants\WalletConstants.class
 com\wallet\dto\WalletResponse$WalletResponseBuilder.class

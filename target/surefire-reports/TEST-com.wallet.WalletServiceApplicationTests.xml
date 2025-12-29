@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.wallet.WalletServiceApplicationTests" time="28.422" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.wallet.WalletServiceApplicationTests" time="38.782" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\AyemidotunOjuolape\AppData\Local\Temp\surefire3582334443730987365\surefirebooter-20251229155823700_3.jar C:\Users\AyemidotunOjuolape\AppData\Local\Temp\surefire3582334443730987365 2025-12-29T15-58-22_503-jvmRun1 surefire-20251229155823700_1tmp surefire_0-20251229155823700_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\AyemidotunOjuolape\AppData\Local\Temp\surefire11633561914078121886\surefirebooter-20251229163500272_3.jar C:\Users\AyemidotunOjuolape\AppData\Local\Temp\surefire11633561914078121886 2025-12-29T16-34-59_787-jvmRun1 surefire-20251229163500272_1tmp surefire_0-20251229163500272_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\AyemidotunOjuolape\Desktop\codeInt\target\test-classes;C:\Users\AyemidotunOjuolape\Desktop\codeInt\target\classes;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.1\spring-boot-starter-web-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.1\spring-boot-starter-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot\3.2.1\spring-boot-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.1\spring-boot-autoconfigure-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.1\spring-boot-starter-logging-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\AyemidotunOjuolape\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\slf4j\jul-to-slf4j\2.0.9\jul-to-slf4j-2.0.9.jar;C:\Users\AyemidotunOjuolape\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.1\spring-boot-starter-json-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.1\spring-boot-starter-tomcat-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.17\tomcat-embed-core-10.1.17.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.17\tomcat-embed-websocket-10.1.17.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-web\6.1.2\spring-web-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-beans\6.1.2\spring-beans-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\io\micrometer\micrometer-observation\1.12.1\micrometer-observation-1.12.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\io\micrometer\micrometer-commons\1.12.1\micrometer-commons-1.12.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-webmvc\6.1.2\spring-webmvc-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-aop\6.1.2\spring-aop-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-context\6.1.2\spring-context-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-expression\6.1.2\spring-expression-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.1\spring-boot-starter-data-jpa-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.1\spring-boot-starter-aop-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.1\spring-boot-starter-jdbc-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-jdbc\6.1.2\spring-jdbc-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\hibernate\orm\hibernate-core\6.4.1.Final\hibernate-core-6.4.1.Final.jar;C:\Users\AyemidotunOjuolape\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\AyemidotunOjuolape\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.4\jaxb-runtime-4.0.4.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.4\jaxb-core-4.0.4.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\eclipse\angus\angus-activation\2.0.1\angus-activation-2.0.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\glassfish\jaxb\txw2\4.0.4\txw2-4.0.4.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\data\spring-data-jpa\3.2.1\spring-data-jpa-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\data\spring-data-commons\3.2.1\spring-data-commons-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-orm\6.1.2\spring-orm-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-tx\6.1.2\spring-tx-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-aspects\6.1.2\spring-aspects-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.2.1\spring-boot-starter-validation-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.17\tomcat-embed-el-10.1.17.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\AyemidotunOjuolape\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.1\spring-boot-starter-test-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-test\3.2.1\spring-boot-test-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.1\spring-boot-test-autoconfigure-3.2.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-core\6.1.2\spring-core-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-jcl\6.1.2\spring-jcl-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\springframework\spring-test\6.1.2\spring-test-6.1.2.jar;C:\Users\AyemidotunOjuolape\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\AyemidotunOjuolape\AppData\Local\Temp\surefire3582334443730987365\surefirebooter-20251229155823700_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\AyemidotunOjuolape\AppData\Local\Temp\surefire11633561914078121886\surefirebooter-20251229163500272_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-LTS"/>
@@ -53,7 +53,7 @@
     <property name="user.dir" value="C:\Users\AyemidotunOjuolape\Desktop\codeInt"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="24752"/>
+    <property name="PID" value="34076"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="Cp1252"/>
@@ -66,9 +66,9 @@
     <property name="java.class.version" value="65.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[wallet-service] "/>
   </properties>
-  <testcase name="testCreateWallet" classname="com.wallet.WalletServiceApplicationTests" time="2.895">
-    <system-out><![CDATA[15:58:27.683 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.wallet.WalletServiceApplicationTests]: WalletServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-15:58:28.188 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.wallet.WalletServiceApplication for test class com.wallet.WalletServiceApplicationTests
+  <testcase name="testCreateWallet" classname="com.wallet.WalletServiceApplicationTests" time="3.873">
+    <system-out><![CDATA[16:35:03.987 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.wallet.WalletServiceApplicationTests]: WalletServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:35:04.581 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.wallet.WalletServiceApplication for test class com.wallet.WalletServiceApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -78,29 +78,29 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.1)
 
-2025-12-29T15:58:30.323+01:00  INFO 24752 --- [wallet-service] [           main] c.wallet.WalletServiceApplicationTests   : Starting WalletServiceApplicationTests using Java 21.0.6 with PID 24752 (started by AyemidotunOjuolape in C:\Users\AyemidotunOjuolape\Desktop\codeInt)
-2025-12-29T15:58:30.326+01:00 DEBUG 24752 --- [wallet-service] [           main] c.wallet.WalletServiceApplicationTests   : Running with Spring Boot v3.2.1, Spring v6.1.2
-2025-12-29T15:58:30.328+01:00  INFO 24752 --- [wallet-service] [           main] c.wallet.WalletServiceApplicationTests   : No active profile set, falling back to 1 default profile: "default"
-2025-12-29T15:58:33.306+01:00  INFO 24752 --- [wallet-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-29T15:58:33.965+01:00  INFO 24752 --- [wallet-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 631 ms. Found 2 JPA repository interfaces.
-2025-12-29T15:58:36.618+01:00  INFO 24752 --- [wallet-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-29T15:58:36.897+01:00  INFO 24752 --- [wallet-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
-2025-12-29T15:58:37.006+01:00  INFO 24752 --- [wallet-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-29T15:58:39.037+01:00  INFO 24752 --- [wallet-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-29T15:58:39.236+01:00  INFO 24752 --- [wallet-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-29T15:58:40.795+01:00  INFO 24752 --- [wallet-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:walletdb user=SA
-2025-12-29T15:58:40.800+01:00  INFO 24752 --- [wallet-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-29T15:58:40.919+01:00  WARN 24752 --- [wallet-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-29T15:58:44.209+01:00  INFO 24752 --- [wallet-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-29T15:58:44.277+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:06.638+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.WalletServiceApplicationTests   : Starting WalletServiceApplicationTests using Java 21.0.6 with PID 34076 (started by AyemidotunOjuolape in C:\Users\AyemidotunOjuolape\Desktop\codeInt)
+2025-12-29T16:35:06.644+01:00 DEBUG 34076 --- [wallet-service] [           main] c.wallet.WalletServiceApplicationTests   : Running with Spring Boot v3.2.1, Spring v6.1.2
+2025-12-29T16:35:06.650+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.WalletServiceApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2025-12-29T16:35:10.103+01:00  INFO 34076 --- [wallet-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-29T16:35:10.551+01:00  INFO 34076 --- [wallet-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 411 ms. Found 2 JPA repository interfaces.
+2025-12-29T16:35:15.146+01:00  INFO 34076 --- [wallet-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-29T16:35:16.031+01:00  INFO 34076 --- [wallet-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-12-29T16:35:16.738+01:00  INFO 34076 --- [wallet-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-29T16:35:20.248+01:00  INFO 34076 --- [wallet-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-29T16:35:20.679+01:00  INFO 34076 --- [wallet-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-29T16:35:21.907+01:00  INFO 34076 --- [wallet-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:walletdb user=SA
+2025-12-29T16:35:21.928+01:00  INFO 34076 --- [wallet-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-29T16:35:22.068+01:00  WARN 34076 --- [wallet-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-29T16:35:28.158+01:00  INFO 34076 --- [wallet-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-29T16:35:28.237+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     drop table if exists transactions cascade 
 Hibernate: 
     drop table if exists transactions cascade 
-2025-12-29T15:58:44.286+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:28.253+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     drop table if exists wallets cascade 
 Hibernate: 
     drop table if exists wallets cascade 
-2025-12-29T15:58:44.345+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:28.272+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     create table transactions (
         amount bigint not null,
         balance_after bigint not null,
@@ -128,7 +128,7 @@ Hibernate:
         type varchar(255) not null check (type in ('CREDIT','DEBIT','TRANSFER_IN','TRANSFER_OUT')),
         primary key (id)
     )
-2025-12-29T15:58:44.396+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:28.316+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     create table wallets (
         currency varchar(3) not null,
         balance bigint not null,
@@ -150,13 +150,13 @@ Hibernate:
         name varchar(255),
         primary key (id)
     )
-2025-12-29T15:58:44.401+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:28.355+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     create index idx_wallet_id 
        on transactions (wallet_id)
 Hibernate: 
     create index idx_wallet_id 
        on transactions (wallet_id)
-2025-12-29T15:58:44.404+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:28.361+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     alter table if exists transactions 
        add constraint FK23bop5lktue0o5q7kr19ti8h 
        foreign key (wallet_id) 
@@ -166,18 +166,18 @@ Hibernate:
        add constraint FK23bop5lktue0o5q7kr19ti8h 
        foreign key (wallet_id) 
        references wallets
-2025-12-29T15:58:44.480+01:00  INFO 24752 --- [wallet-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-29T15:58:45.848+01:00  INFO 24752 --- [wallet-service] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-29T15:58:48.428+01:00  WARN 24752 --- [wallet-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-29T15:58:50.097+01:00  INFO 24752 --- [wallet-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:walletdb'
-2025-12-29T15:58:50.847+01:00  INFO 24752 --- [wallet-service] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-12-29T15:58:50.848+01:00  INFO 24752 --- [wallet-service] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-12-29T15:58:50.852+01:00  INFO 24752 --- [wallet-service] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2025-12-29T15:58:50.937+01:00  INFO 24752 --- [wallet-service] [           main] c.wallet.WalletServiceApplicationTests   : Started WalletServiceApplicationTests in 22.142 seconds (process running for 26.19)
-2025-12-29T15:58:53.512+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
-2025-12-29T15:58:53.527+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Creating wallet with name: Test Wallet, currency: USD
-2025-12-29T15:58:53.584+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Created wallet with ID: 705d9ea7-90cb-4b1a-9dba-e99f291e77a8
-2025-12-29T15:58:53.634+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:28.436+01:00  INFO 34076 --- [wallet-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-29T16:35:30.162+01:00  INFO 34076 --- [wallet-service] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-29T16:35:33.304+01:00  WARN 34076 --- [wallet-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-29T16:35:35.617+01:00  INFO 34076 --- [wallet-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:walletdb'
+2025-12-29T16:35:36.006+01:00  INFO 34076 --- [wallet-service] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-12-29T16:35:36.007+01:00  INFO 34076 --- [wallet-service] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-12-29T16:35:36.015+01:00  INFO 34076 --- [wallet-service] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2025-12-29T16:35:36.116+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.WalletServiceApplicationTests   : Started WalletServiceApplicationTests in 30.947 seconds (process running for 35.46)
+2025-12-29T16:35:39.643+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
+2025-12-29T16:35:39.663+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Creating wallet with name: Test Wallet, currency: USD
+2025-12-29T16:35:39.755+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Created wallet with ID: e5db0aef-8b8c-47d3-8442-f60fe66a5f22
+2025-12-29T16:35:39.806+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     insert 
     into
         wallets
@@ -198,11 +198,11 @@ WARNING: If a serviceability tool is not in use, please run with -Djdk.instrumen
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
 ]]></system-err>
   </testcase>
-  <testcase name="testDebitInsufficientBalance" classname="com.wallet.WalletServiceApplicationTests" time="0.628">
-    <system-out><![CDATA[2025-12-29T15:58:53.963+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
-2025-12-29T15:58:53.963+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Creating wallet with name: Test Wallet f2f6fc25-3aa2-4f79-a7f7-8724562a5ec0, currency: USD
-2025-12-29T15:58:53.964+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Created wallet with ID: 1730e473-545c-4214-a7c8-94abff894973
-2025-12-29T15:58:53.966+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+  <testcase name="testDebitInsufficientBalance" classname="com.wallet.WalletServiceApplicationTests" time="0.743">
+    <system-out><![CDATA[2025-12-29T16:35:40.216+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
+2025-12-29T16:35:40.217+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Creating wallet with name: Test Wallet 3f31f3fa-c262-4abe-bc54-1530f19fc15c, currency: USD
+2025-12-29T16:35:40.218+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Created wallet with ID: 6d0450de-2716-4b31-a8e4-aca9344e84fc
+2025-12-29T16:35:40.220+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     insert 
     into
         wallets
@@ -216,9 +216,9 @@ Hibernate:
         (balance, created_at, currency, name, updated_at, version, id) 
     values
         (?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:54.049+01:00  INFO 24752 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions - Type: DEBIT, Wallet: 1730e473-545c-4214-a7c8-94abff894973
-2025-12-29T15:58:54.050+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Processing transaction - Type: DEBIT, Wallet: 1730e473-545c-4214-a7c8-94abff894973, Amount: 5000, Key: test-insufficient-c66c4b4a-ac06-4866-ac2d-2b660c42b5cf
-2025-12-29T15:58:54.436+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:40.328+01:00  INFO 34076 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions - Type: DEBIT, Wallet: 6d0450de-2716-4b31-a8e4-aca9344e84fc
+2025-12-29T16:35:40.335+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Processing transaction - Type: DEBIT, Wallet: 6d0450de-2716-4b31-a8e4-aca9344e84fc, Amount: 5000, Key: test-insufficient-616349c3-42ce-47bd-af42-6d9d3f03b204
+2025-12-29T16:35:40.825+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     select
         t1_0.id,
         t1_0.amount,
@@ -250,7 +250,7 @@ Hibernate:
         transactions t1_0 
     where
         t1_0.idempotency_key=?
-2025-12-29T15:58:54.505+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:40.884+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     select
         w1_0.id,
         w1_0.balance,
@@ -276,14 +276,14 @@ Hibernate:
         wallets w1_0 
     where
         w1_0.id=? for update
-2025-12-29T15:58:54.543+01:00  WARN 24752 --- [wallet-service] [           main] c.w.exception.GlobalExceptionHandler     : Insufficient balance: Insufficient balance. Current: 1000, Requested: 5000
+2025-12-29T16:35:40.925+01:00  WARN 34076 --- [wallet-service] [           main] c.w.exception.GlobalExceptionHandler     : Insufficient balance: Insufficient balance. Current: 1000, Requested: 5000
 ]]></system-out>
   </testcase>
-  <testcase name="testTransferToSameWallet" classname="com.wallet.WalletServiceApplicationTests" time="0.064">
-    <system-out><![CDATA[2025-12-29T15:58:54.581+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
-2025-12-29T15:58:54.582+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Creating wallet with name: Test Wallet 80078da0-9c51-4765-9cfd-11c5be128dca, currency: USD
-2025-12-29T15:58:54.584+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Created wallet with ID: 6e08df79-92b7-4e74-870e-80281972767d
-2025-12-29T15:58:54.585+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+  <testcase name="testTransferToSameWallet" classname="com.wallet.WalletServiceApplicationTests" time="0.067">
+    <system-out><![CDATA[2025-12-29T16:35:40.968+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
+2025-12-29T16:35:40.970+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Creating wallet with name: Test Wallet e76ea6a4-756e-40e8-9f09-111098b05c42, currency: USD
+2025-12-29T16:35:40.971+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Created wallet with ID: 8e58f4fa-6b0a-4b42-aa6e-936709dd8602
+2025-12-29T16:35:40.972+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     insert 
     into
         wallets
@@ -297,16 +297,16 @@ Hibernate:
         (balance, created_at, currency, name, updated_at, version, id) 
     values
         (?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:54.619+01:00  INFO 24752 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions/transfer - From: 6e08df79-92b7-4e74-870e-80281972767d, To: 6e08df79-92b7-4e74-870e-80281972767d
-2025-12-29T15:58:54.621+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Processing transfer - From: 6e08df79-92b7-4e74-870e-80281972767d, To: 6e08df79-92b7-4e74-870e-80281972767d, Amount: 1000, Key: test-same-wallet-2f682045-74e0-446d-a4aa-86230dea3b82
-2025-12-29T15:58:54.627+01:00  WARN 24752 --- [wallet-service] [           main] c.w.exception.GlobalExceptionHandler     : Invalid transaction: Cannot transfer to the same wallet
+2025-12-29T16:35:41.005+01:00  INFO 34076 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions/transfer - From: 8e58f4fa-6b0a-4b42-aa6e-936709dd8602, To: 8e58f4fa-6b0a-4b42-aa6e-936709dd8602
+2025-12-29T16:35:41.007+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Processing transfer - From: 8e58f4fa-6b0a-4b42-aa6e-936709dd8602, To: 8e58f4fa-6b0a-4b42-aa6e-936709dd8602, Amount: 1000, Key: test-same-wallet-bb0bb837-0c6d-4db6-8949-f38286f70380
+2025-12-29T16:35:41.010+01:00  WARN 34076 --- [wallet-service] [           main] c.w.exception.GlobalExceptionHandler     : Invalid transaction: Cannot transfer to the same wallet
 ]]></system-out>
   </testcase>
-  <testcase name="testIdempotency" classname="com.wallet.WalletServiceApplicationTests" time="0.294">
-    <system-out><![CDATA[2025-12-29T15:58:54.655+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
-2025-12-29T15:58:54.662+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Creating wallet with name: Test Wallet c8f0b094-d1d2-48aa-bcb8-c72c542df162, currency: USD
-2025-12-29T15:58:54.664+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Created wallet with ID: caf7139e-2221-49d9-8242-e17fd35d0288
-2025-12-29T15:58:54.668+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+  <testcase name="testIdempotency" classname="com.wallet.WalletServiceApplicationTests" time="0.353">
+    <system-out><![CDATA[2025-12-29T16:35:41.034+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
+2025-12-29T16:35:41.035+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Creating wallet with name: Test Wallet b681c8e9-4aea-4c57-b11e-b7024ce73a79, currency: USD
+2025-12-29T16:35:41.036+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Created wallet with ID: 70d398f6-4c17-41d6-b456-d4b8d538cf69
+2025-12-29T16:35:41.045+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     insert 
     into
         wallets
@@ -320,9 +320,9 @@ Hibernate:
         (balance, created_at, currency, name, updated_at, version, id) 
     values
         (?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:54.687+01:00  INFO 24752 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions - Type: CREDIT, Wallet: caf7139e-2221-49d9-8242-e17fd35d0288
-2025-12-29T15:58:54.688+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Processing transaction - Type: CREDIT, Wallet: caf7139e-2221-49d9-8242-e17fd35d0288, Amount: 5000, Key: test-idempotency-2a537105-2ad2-4603-8236-93c59e726078
-2025-12-29T15:58:54.700+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.053+01:00  INFO 34076 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions - Type: CREDIT, Wallet: 70d398f6-4c17-41d6-b456-d4b8d538cf69
+2025-12-29T16:35:41.053+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Processing transaction - Type: CREDIT, Wallet: 70d398f6-4c17-41d6-b456-d4b8d538cf69, Amount: 5000, Key: test-idempotency-a542ea53-57de-4eee-ba92-cab61ca29e51
+2025-12-29T16:35:41.057+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     select
         t1_0.id,
         t1_0.amount,
@@ -354,7 +354,7 @@ Hibernate:
         transactions t1_0 
     where
         t1_0.idempotency_key=?
-2025-12-29T15:58:54.711+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.064+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     select
         w1_0.id,
         w1_0.balance,
@@ -380,8 +380,8 @@ Hibernate:
         wallets w1_0 
     where
         w1_0.id=? for update
-2025-12-29T15:58:54.727+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Transaction completed - ID: 250afd12-d24d-4326-9fb2-3dfc6b2eae03, New Balance: 15000
-2025-12-29T15:58:54.736+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.087+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Transaction completed - ID: cf862c57-6ce0-45a5-b768-e01d6a795724, New Balance: 15000
+2025-12-29T16:35:41.099+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     insert 
     into
         transactions
@@ -395,7 +395,7 @@ Hibernate:
         (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:54.749+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.118+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     update
         wallets 
     set
@@ -419,9 +419,9 @@ Hibernate:
     where
         id=? 
         and version=?
-2025-12-29T15:58:54.803+01:00  INFO 24752 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions - Type: CREDIT, Wallet: caf7139e-2221-49d9-8242-e17fd35d0288
-2025-12-29T15:58:54.804+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Processing transaction - Type: CREDIT, Wallet: caf7139e-2221-49d9-8242-e17fd35d0288, Amount: 5000, Key: test-idempotency-2a537105-2ad2-4603-8236-93c59e726078
-2025-12-29T15:58:54.821+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.218+01:00  INFO 34076 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions - Type: CREDIT, Wallet: 70d398f6-4c17-41d6-b456-d4b8d538cf69
+2025-12-29T16:35:41.219+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Processing transaction - Type: CREDIT, Wallet: 70d398f6-4c17-41d6-b456-d4b8d538cf69, Amount: 5000, Key: test-idempotency-a542ea53-57de-4eee-ba92-cab61ca29e51
+2025-12-29T16:35:41.239+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     select
         t1_0.id,
         t1_0.amount,
@@ -453,428 +453,10 @@ Hibernate:
         transactions t1_0 
     where
         t1_0.idempotency_key=?
-2025-12-29T15:58:54.870+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Duplicate transaction detected for key: test-idempotency-2a537105-2ad2-4603-8236-93c59e726078
-2025-12-29T15:58:54.887+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/caf7139e-2221-49d9-8242-e17fd35d0288
-2025-12-29T15:58:54.894+01:00 DEBUG 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Getting wallet: caf7139e-2221-49d9-8242-e17fd35d0288
-2025-12-29T15:58:54.918+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=?
-Hibernate: 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=?
-]]></system-out>
-  </testcase>
-  <testcase name="testDebitTransaction" classname="com.wallet.WalletServiceApplicationTests" time="0.096">
-    <system-out><![CDATA[2025-12-29T15:58:54.945+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
-2025-12-29T15:58:54.946+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Creating wallet with name: Test Wallet 8364ae85-d26e-482e-ad48-d1fbdd97cb7f, currency: USD
-2025-12-29T15:58:54.947+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Created wallet with ID: 389f0d14-c6d7-4b70-b262-d0760d019dcf
-2025-12-29T15:58:54.953+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-Hibernate: 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:54.980+01:00  INFO 24752 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions - Type: DEBIT, Wallet: 389f0d14-c6d7-4b70-b262-d0760d019dcf
-2025-12-29T15:58:54.981+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Processing transaction - Type: DEBIT, Wallet: 389f0d14-c6d7-4b70-b262-d0760d019dcf, Amount: 3000, Key: test-debit-64820036-8150-41d5-aa29-2101d1f30985
-2025-12-29T15:58:54.984+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    select
-        t1_0.id,
-        t1_0.amount,
-        t1_0.balance_after,
-        t1_0.created_at,
-        t1_0.description,
-        t1_0.idempotency_key,
-        t1_0.related_wallet_id,
-        t1_0.transfer_id,
-        t1_0.type,
-        t1_0.wallet_id 
-    from
-        transactions t1_0 
-    where
-        t1_0.idempotency_key=?
-Hibernate: 
-    select
-        t1_0.id,
-        t1_0.amount,
-        t1_0.balance_after,
-        t1_0.created_at,
-        t1_0.description,
-        t1_0.idempotency_key,
-        t1_0.related_wallet_id,
-        t1_0.transfer_id,
-        t1_0.type,
-        t1_0.wallet_id 
-    from
-        transactions t1_0 
-    where
-        t1_0.idempotency_key=?
-2025-12-29T15:58:55.011+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=? for update
-Hibernate: 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=? for update
-2025-12-29T15:58:55.015+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Transaction completed - ID: c429be8c-cbd4-441b-8657-7678c4e1afb8, New Balance: 7000
-2025-12-29T15:58:55.017+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    insert 
-    into
-        transactions
-        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-Hibernate: 
-    insert 
-    into
-        transactions
-        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:55.019+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    update
-        wallets 
-    set
-        balance=?,
-        currency=?,
-        name=?,
-        updated_at=?,
-        version=? 
-    where
-        id=? 
-        and version=?
-Hibernate: 
-    update
-        wallets 
-    set
-        balance=?,
-        currency=?,
-        name=?,
-        updated_at=?,
-        version=? 
-    where
-        id=? 
-        and version=?
-]]></system-out>
-  </testcase>
-  <testcase name="testCreditTransaction" classname="com.wallet.WalletServiceApplicationTests" time="0.078">
-    <system-out><![CDATA[2025-12-29T15:58:55.064+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
-2025-12-29T15:58:55.065+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Creating wallet with name: Test Wallet 42ad8427-5f7c-4bef-9fd1-fa6b4a0b0cd6, currency: USD
-2025-12-29T15:58:55.067+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Created wallet with ID: e5d21b2a-af76-4c02-b301-63a10a5e3139
-2025-12-29T15:58:55.068+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-Hibernate: 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:55.078+01:00  INFO 24752 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions - Type: CREDIT, Wallet: e5d21b2a-af76-4c02-b301-63a10a5e3139
-2025-12-29T15:58:55.079+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Processing transaction - Type: CREDIT, Wallet: e5d21b2a-af76-4c02-b301-63a10a5e3139, Amount: 5000, Key: test-credit-21a7679f-5702-4ec7-9a4c-cc6bb5a666dc
-2025-12-29T15:58:55.082+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    select
-        t1_0.id,
-        t1_0.amount,
-        t1_0.balance_after,
-        t1_0.created_at,
-        t1_0.description,
-        t1_0.idempotency_key,
-        t1_0.related_wallet_id,
-        t1_0.transfer_id,
-        t1_0.type,
-        t1_0.wallet_id 
-    from
-        transactions t1_0 
-    where
-        t1_0.idempotency_key=?
-Hibernate: 
-    select
-        t1_0.id,
-        t1_0.amount,
-        t1_0.balance_after,
-        t1_0.created_at,
-        t1_0.description,
-        t1_0.idempotency_key,
-        t1_0.related_wallet_id,
-        t1_0.transfer_id,
-        t1_0.type,
-        t1_0.wallet_id 
-    from
-        transactions t1_0 
-    where
-        t1_0.idempotency_key=?
-2025-12-29T15:58:55.085+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=? for update
-Hibernate: 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=? for update
-2025-12-29T15:58:55.088+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Transaction completed - ID: d45a89b5-74aa-4e62-a7df-a55bfa13c01f, New Balance: 15000
-2025-12-29T15:58:55.092+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    insert 
-    into
-        transactions
-        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-Hibernate: 
-    insert 
-    into
-        transactions
-        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:55.094+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    update
-        wallets 
-    set
-        balance=?,
-        currency=?,
-        name=?,
-        updated_at=?,
-        version=? 
-    where
-        id=? 
-        and version=?
-Hibernate: 
-    update
-        wallets 
-    set
-        balance=?,
-        currency=?,
-        name=?,
-        updated_at=?,
-        version=? 
-    where
-        id=? 
-        and version=?
-]]></system-out>
-  </testcase>
-  <testcase name="testTransferInsufficientBalance" classname="com.wallet.WalletServiceApplicationTests" time="0.081">
-    <system-out><![CDATA[2025-12-29T15:58:55.126+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
-2025-12-29T15:58:55.127+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Creating wallet with name: Test Wallet 0b4fa338-d23a-4d56-8767-1b4241b4fd22, currency: USD
-2025-12-29T15:58:55.128+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Created wallet with ID: fe338f0f-4dac-438c-bd54-be47eabaaa18
-2025-12-29T15:58:55.129+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-Hibernate: 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:55.135+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
-2025-12-29T15:58:55.135+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Creating wallet with name: Test Wallet 3f2e7d68-ae2a-4807-99de-729aae8933c9, currency: USD
-2025-12-29T15:58:55.136+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Created wallet with ID: dc21207c-79ff-4c82-830d-64dd44b1f3f2
-2025-12-29T15:58:55.137+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-Hibernate: 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:55.146+01:00  INFO 24752 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions/transfer - From: fe338f0f-4dac-438c-bd54-be47eabaaa18, To: dc21207c-79ff-4c82-830d-64dd44b1f3f2
-2025-12-29T15:58:55.147+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Processing transfer - From: fe338f0f-4dac-438c-bd54-be47eabaaa18, To: dc21207c-79ff-4c82-830d-64dd44b1f3f2, Amount: 5000, Key: test-transfer-fail-13700208-46cb-495a-a3f9-950ebfe51ace
-2025-12-29T15:58:55.150+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    select
-        t1_0.id,
-        t1_0.amount,
-        t1_0.balance_after,
-        t1_0.created_at,
-        t1_0.description,
-        t1_0.idempotency_key,
-        t1_0.related_wallet_id,
-        t1_0.transfer_id,
-        t1_0.type,
-        t1_0.wallet_id 
-    from
-        transactions t1_0 
-    where
-        t1_0.idempotency_key=?
-Hibernate: 
-    select
-        t1_0.id,
-        t1_0.amount,
-        t1_0.balance_after,
-        t1_0.created_at,
-        t1_0.description,
-        t1_0.idempotency_key,
-        t1_0.related_wallet_id,
-        t1_0.transfer_id,
-        t1_0.type,
-        t1_0.wallet_id 
-    from
-        transactions t1_0 
-    where
-        t1_0.idempotency_key=?
-2025-12-29T15:58:55.154+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=? for update
-Hibernate: 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=? for update
-2025-12-29T15:58:55.161+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=? for update
-Hibernate: 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=? for update
-2025-12-29T15:58:55.165+01:00  WARN 24752 --- [wallet-service] [           main] c.w.exception.GlobalExceptionHandler     : Insufficient balance: Insufficient balance. Current: 1000, Requested: 5000
-2025-12-29T15:58:55.168+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/fe338f0f-4dac-438c-bd54-be47eabaaa18
-2025-12-29T15:58:55.169+01:00 DEBUG 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Getting wallet: fe338f0f-4dac-438c-bd54-be47eabaaa18
-2025-12-29T15:58:55.170+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=?
-Hibernate: 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=?
-2025-12-29T15:58:55.179+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/dc21207c-79ff-4c82-830d-64dd44b1f3f2
-2025-12-29T15:58:55.180+01:00 DEBUG 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Getting wallet: dc21207c-79ff-4c82-830d-64dd44b1f3f2
-2025-12-29T15:58:55.181+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.263+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Duplicate transaction detected for key: test-idempotency-a542ea53-57de-4eee-ba92-cab61ca29e51
+2025-12-29T16:35:41.273+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/70d398f6-4c17-41d6-b456-d4b8d538cf69
+2025-12-29T16:35:41.280+01:00 DEBUG 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Getting wallet: 70d398f6-4c17-41d6-b456-d4b8d538cf69
+2025-12-29T16:35:41.330+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     select
         w1_0.id,
         w1_0.balance,
@@ -902,44 +484,11 @@ Hibernate:
         w1_0.id=?
 ]]></system-out>
   </testcase>
-  <testcase name="testWalletNotFound" classname="com.wallet.WalletServiceApplicationTests" time="0.016">
-    <system-out><![CDATA[2025-12-29T15:58:55.212+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/04d0ed7f-e680-4f96-887c-4cc15a360d54
-2025-12-29T15:58:55.213+01:00 DEBUG 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Getting wallet: 04d0ed7f-e680-4f96-887c-4cc15a360d54
-2025-12-29T15:58:55.214+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=?
-Hibernate: 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=?
-2025-12-29T15:58:55.216+01:00  WARN 24752 --- [wallet-service] [           main] c.w.exception.GlobalExceptionHandler     : Wallet not found: Wallet not found with ID: 04d0ed7f-e680-4f96-887c-4cc15a360d54
-]]></system-out>
-  </testcase>
-  <testcase name="contextLoads" classname="com.wallet.WalletServiceApplicationTests" time="0.006"/>
-  <testcase name="testGetWallet" classname="com.wallet.WalletServiceApplicationTests" time="0.032">
-    <system-out><![CDATA[2025-12-29T15:58:55.238+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
-2025-12-29T15:58:55.239+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Creating wallet with name: Get Test Wallet, currency: USD
-2025-12-29T15:58:55.239+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Created wallet with ID: 080cc750-4a08-4f66-a5d0-d12ab0444322
-2025-12-29T15:58:55.244+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+  <testcase name="testDebitTransaction" classname="com.wallet.WalletServiceApplicationTests" time="0.217">
+    <system-out><![CDATA[2025-12-29T16:35:41.496+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
+2025-12-29T16:35:41.498+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Creating wallet with name: Test Wallet a8466dc2-280b-4300-8878-151f17145579, currency: USD
+2025-12-29T16:35:41.500+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Created wallet with ID: 41005bc2-3c6f-4e66-a74a-18f94d47facd
+2025-12-29T16:35:41.502+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     insert 
     into
         wallets
@@ -953,74 +502,9 @@ Hibernate:
         (balance, created_at, currency, name, updated_at, version, id) 
     values
         (?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:55.252+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/080cc750-4a08-4f66-a5d0-d12ab0444322
-2025-12-29T15:58:55.252+01:00 DEBUG 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Getting wallet: 080cc750-4a08-4f66-a5d0-d12ab0444322
-2025-12-29T15:58:55.253+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=?
-Hibernate: 
-    select
-        w1_0.id,
-        w1_0.balance,
-        w1_0.created_at,
-        w1_0.currency,
-        w1_0.name,
-        w1_0.updated_at,
-        w1_0.version 
-    from
-        wallets w1_0 
-    where
-        w1_0.id=?
-]]></system-out>
-  </testcase>
-  <testcase name="testTransfer" classname="com.wallet.WalletServiceApplicationTests" time="0.135">
-    <system-out><![CDATA[2025-12-29T15:58:55.272+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
-2025-12-29T15:58:55.273+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Creating wallet with name: Test Wallet e5f0ea00-f6d1-438c-90f9-ecd3891ddc35, currency: USD
-2025-12-29T15:58:55.276+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Created wallet with ID: 4a9b3289-bce1-464f-823a-99f03a782185
-2025-12-29T15:58:55.277+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-Hibernate: 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:55.288+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
-2025-12-29T15:58:55.289+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Creating wallet with name: Test Wallet 4ffa9c43-48c3-4d70-8efc-07da21900e0b, currency: USD
-2025-12-29T15:58:55.293+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Created wallet with ID: 8905a57a-ed0c-4cf6-a6b0-dd2b06dc2c93
-2025-12-29T15:58:55.296+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-Hibernate: 
-    insert 
-    into
-        wallets
-        (balance, created_at, currency, name, updated_at, version, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:55.304+01:00  INFO 24752 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions/transfer - From: 4a9b3289-bce1-464f-823a-99f03a782185, To: 8905a57a-ed0c-4cf6-a6b0-dd2b06dc2c93
-2025-12-29T15:58:55.304+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Processing transfer - From: 4a9b3289-bce1-464f-823a-99f03a782185, To: 8905a57a-ed0c-4cf6-a6b0-dd2b06dc2c93, Amount: 3000, Key: test-transfer-c9bc7984-208f-4c38-b22b-45382ff7a841
-2025-12-29T15:58:55.308+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.512+01:00  INFO 34076 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions - Type: DEBIT, Wallet: 41005bc2-3c6f-4e66-a74a-18f94d47facd
+2025-12-29T16:35:41.514+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Processing transaction - Type: DEBIT, Wallet: 41005bc2-3c6f-4e66-a74a-18f94d47facd, Amount: 3000, Key: test-debit-501173d0-f8a9-4f5e-b7cc-f5bb7d6d87bb
+2025-12-29T16:35:41.537+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     select
         t1_0.id,
         t1_0.amount,
@@ -1052,7 +536,7 @@ Hibernate:
         transactions t1_0 
     where
         t1_0.idempotency_key=?
-2025-12-29T15:58:55.313+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.545+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     select
         w1_0.id,
         w1_0.balance,
@@ -1078,7 +562,100 @@ Hibernate:
         wallets w1_0 
     where
         w1_0.id=? for update
-2025-12-29T15:58:55.317+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.557+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Transaction completed - ID: 6fc663ec-d2f6-440e-b887-2f03aaf3d06c, New Balance: 7000
+2025-12-29T16:35:41.578+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    insert 
+    into
+        transactions
+        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        transactions
+        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-12-29T16:35:41.587+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    update
+        wallets 
+    set
+        balance=?,
+        currency=?,
+        name=?,
+        updated_at=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+Hibernate: 
+    update
+        wallets 
+    set
+        balance=?,
+        currency=?,
+        name=?,
+        updated_at=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+]]></system-out>
+  </testcase>
+  <testcase name="testCreditTransaction" classname="com.wallet.WalletServiceApplicationTests" time="0.065">
+    <system-out><![CDATA[2025-12-29T16:35:41.665+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
+2025-12-29T16:35:41.666+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Creating wallet with name: Test Wallet 8a74c91c-ee3f-465a-94fb-12030051a9be, currency: USD
+2025-12-29T16:35:41.668+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Created wallet with ID: c7c368e6-d8c5-40cb-bb81-a4ecc9b51b7a
+2025-12-29T16:35:41.669+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-12-29T16:35:41.681+01:00  INFO 34076 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions - Type: CREDIT, Wallet: c7c368e6-d8c5-40cb-bb81-a4ecc9b51b7a
+2025-12-29T16:35:41.681+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Processing transaction - Type: CREDIT, Wallet: c7c368e6-d8c5-40cb-bb81-a4ecc9b51b7a, Amount: 5000, Key: test-credit-fecc1963-f635-4f35-afe2-44c0c834a311
+2025-12-29T16:35:41.685+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.amount,
+        t1_0.balance_after,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.idempotency_key,
+        t1_0.related_wallet_id,
+        t1_0.transfer_id,
+        t1_0.type,
+        t1_0.wallet_id 
+    from
+        transactions t1_0 
+    where
+        t1_0.idempotency_key=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.amount,
+        t1_0.balance_after,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.idempotency_key,
+        t1_0.related_wallet_id,
+        t1_0.transfer_id,
+        t1_0.type,
+        t1_0.wallet_id 
+    from
+        transactions t1_0 
+    where
+        t1_0.idempotency_key=?
+2025-12-29T16:35:41.694+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     select
         w1_0.id,
         w1_0.balance,
@@ -1104,8 +681,8 @@ Hibernate:
         wallets w1_0 
     where
         w1_0.id=? for update
-2025-12-29T15:58:55.321+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Transfer completed - ID: c5edd534-af47-4fbe-a8d2-a107f88d054b, Sender Balance: 7000, Receiver Balance: 8000
-2025-12-29T15:58:55.330+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.701+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Transaction completed - ID: 625ddd4f-71ce-4d6a-a33e-9a87f6c226af, New Balance: 15000
+2025-12-29T16:35:41.702+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     insert 
     into
         transactions
@@ -1119,21 +696,7 @@ Hibernate:
         (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:55.332+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    insert 
-    into
-        transactions
-        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-Hibernate: 
-    insert 
-    into
-        transactions
-        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2025-12-29T15:58:55.334+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.704+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     update
         wallets 
     set
@@ -1157,33 +720,133 @@ Hibernate:
     where
         id=? 
         and version=?
-2025-12-29T15:58:55.336+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
-    update
-        wallets 
-    set
-        balance=?,
-        currency=?,
-        name=?,
-        updated_at=?,
-        version=? 
-    where
-        id=? 
-        and version=?
+]]></system-out>
+  </testcase>
+  <testcase name="testTransferInsufficientBalance" classname="com.wallet.WalletServiceApplicationTests" time="0.115">
+    <system-out><![CDATA[2025-12-29T16:35:41.723+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
+2025-12-29T16:35:41.723+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Creating wallet with name: Test Wallet b8fcb682-4887-4e5a-8e9f-90eaa7b64822, currency: USD
+2025-12-29T16:35:41.726+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Created wallet with ID: 974a601b-f98c-411c-bb41-23d2139d47d9
+2025-12-29T16:35:41.727+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
 Hibernate: 
-    update
-        wallets 
-    set
-        balance=?,
-        currency=?,
-        name=?,
-        updated_at=?,
-        version=? 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-12-29T16:35:41.738+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
+2025-12-29T16:35:41.749+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Creating wallet with name: Test Wallet 9eee3685-9119-456b-9426-ca401f5678ea, currency: USD
+2025-12-29T16:35:41.750+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Created wallet with ID: 41eee849-97e1-4b6b-9aef-7975a1d48c3a
+2025-12-29T16:35:41.752+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-12-29T16:35:41.765+01:00  INFO 34076 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions/transfer - From: 974a601b-f98c-411c-bb41-23d2139d47d9, To: 41eee849-97e1-4b6b-9aef-7975a1d48c3a
+2025-12-29T16:35:41.765+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Processing transfer - From: 974a601b-f98c-411c-bb41-23d2139d47d9, To: 41eee849-97e1-4b6b-9aef-7975a1d48c3a, Amount: 5000, Key: test-transfer-fail-014a8233-ac09-4e24-b532-4c2c5dbdb565
+2025-12-29T16:35:41.770+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.amount,
+        t1_0.balance_after,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.idempotency_key,
+        t1_0.related_wallet_id,
+        t1_0.transfer_id,
+        t1_0.type,
+        t1_0.wallet_id 
+    from
+        transactions t1_0 
     where
-        id=? 
-        and version=?
-2025-12-29T15:58:55.352+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/4a9b3289-bce1-464f-823a-99f03a782185
-2025-12-29T15:58:55.352+01:00 DEBUG 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Getting wallet: 4a9b3289-bce1-464f-823a-99f03a782185
-2025-12-29T15:58:55.353+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+        t1_0.idempotency_key=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.amount,
+        t1_0.balance_after,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.idempotency_key,
+        t1_0.related_wallet_id,
+        t1_0.transfer_id,
+        t1_0.type,
+        t1_0.wallet_id 
+    from
+        transactions t1_0 
+    where
+        t1_0.idempotency_key=?
+2025-12-29T16:35:41.778+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=? for update
+Hibernate: 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=? for update
+2025-12-29T16:35:41.804+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=? for update
+Hibernate: 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=? for update
+2025-12-29T16:35:41.809+01:00  WARN 34076 --- [wallet-service] [           main] c.w.exception.GlobalExceptionHandler     : Insufficient balance: Insufficient balance. Current: 1000, Requested: 5000
+2025-12-29T16:35:41.814+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/974a601b-f98c-411c-bb41-23d2139d47d9
+2025-12-29T16:35:41.815+01:00 DEBUG 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Getting wallet: 974a601b-f98c-411c-bb41-23d2139d47d9
+2025-12-29T16:35:41.816+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     select
         w1_0.id,
         w1_0.balance,
@@ -1209,9 +872,346 @@ Hibernate:
         wallets w1_0 
     where
         w1_0.id=?
-2025-12-29T15:58:55.363+01:00  INFO 24752 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/8905a57a-ed0c-4cf6-a6b0-dd2b06dc2c93
-2025-12-29T15:58:55.364+01:00 DEBUG 24752 --- [wallet-service] [           main] com.wallet.service.WalletService         : Getting wallet: 8905a57a-ed0c-4cf6-a6b0-dd2b06dc2c93
-2025-12-29T15:58:55.365+01:00 DEBUG 24752 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+2025-12-29T16:35:41.823+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/41eee849-97e1-4b6b-9aef-7975a1d48c3a
+2025-12-29T16:35:41.825+01:00 DEBUG 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Getting wallet: 41eee849-97e1-4b6b-9aef-7975a1d48c3a
+2025-12-29T16:35:41.826+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=?
+Hibernate: 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testWalletNotFound" classname="com.wallet.WalletServiceApplicationTests" time="0.018">
+    <system-out><![CDATA[2025-12-29T16:35:41.843+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/597b360a-3c2e-483c-98ec-4d7d5ec1af5c
+2025-12-29T16:35:41.843+01:00 DEBUG 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Getting wallet: 597b360a-3c2e-483c-98ec-4d7d5ec1af5c
+2025-12-29T16:35:41.845+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=?
+Hibernate: 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=?
+2025-12-29T16:35:41.848+01:00  WARN 34076 --- [wallet-service] [           main] c.w.exception.GlobalExceptionHandler     : Wallet not found: Wallet not found with ID: 597b360a-3c2e-483c-98ec-4d7d5ec1af5c
+]]></system-out>
+  </testcase>
+  <testcase name="contextLoads" classname="com.wallet.WalletServiceApplicationTests" time="0.005"/>
+  <testcase name="testGetWallet" classname="com.wallet.WalletServiceApplicationTests" time="0.028">
+    <system-out><![CDATA[2025-12-29T16:35:41.873+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
+2025-12-29T16:35:41.874+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Creating wallet with name: Get Test Wallet, currency: USD
+2025-12-29T16:35:41.877+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Created wallet with ID: 76e50e17-a9f5-43a3-9d22-464e0d9d2327
+2025-12-29T16:35:41.878+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-12-29T16:35:41.885+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/76e50e17-a9f5-43a3-9d22-464e0d9d2327
+2025-12-29T16:35:41.886+01:00 DEBUG 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Getting wallet: 76e50e17-a9f5-43a3-9d22-464e0d9d2327
+2025-12-29T16:35:41.887+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=?
+Hibernate: 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testTransfer" classname="com.wallet.WalletServiceApplicationTests" time="0.154">
+    <system-out><![CDATA[2025-12-29T16:35:41.906+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
+2025-12-29T16:35:41.906+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Creating wallet with name: Test Wallet 0da49160-e904-4be2-acf6-590c47ccb325, currency: USD
+2025-12-29T16:35:41.907+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Created wallet with ID: a8325cd5-18a4-47a4-a1d3-4faba19d1be6
+2025-12-29T16:35:41.909+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-12-29T16:35:41.922+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : POST /wallets - Creating wallet
+2025-12-29T16:35:41.923+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Creating wallet with name: Test Wallet 5109ed5e-a113-406f-bef4-a8706c62ad12, currency: USD
+2025-12-29T16:35:41.923+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Created wallet with ID: d5335db5-dc46-493b-aa99-013491e1bc9d
+2025-12-29T16:35:41.924+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        wallets
+        (balance, created_at, currency, name, updated_at, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-12-29T16:35:41.936+01:00  INFO 34076 --- [wallet-service] [           main] c.w.controller.TransactionController     : POST /transactions/transfer - From: a8325cd5-18a4-47a4-a1d3-4faba19d1be6, To: d5335db5-dc46-493b-aa99-013491e1bc9d
+2025-12-29T16:35:41.937+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Processing transfer - From: a8325cd5-18a4-47a4-a1d3-4faba19d1be6, To: d5335db5-dc46-493b-aa99-013491e1bc9d, Amount: 3000, Key: test-transfer-64da0fc3-dfbb-4dd6-92c8-c809c59a3881
+2025-12-29T16:35:41.940+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.amount,
+        t1_0.balance_after,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.idempotency_key,
+        t1_0.related_wallet_id,
+        t1_0.transfer_id,
+        t1_0.type,
+        t1_0.wallet_id 
+    from
+        transactions t1_0 
+    where
+        t1_0.idempotency_key=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.amount,
+        t1_0.balance_after,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.idempotency_key,
+        t1_0.related_wallet_id,
+        t1_0.transfer_id,
+        t1_0.type,
+        t1_0.wallet_id 
+    from
+        transactions t1_0 
+    where
+        t1_0.idempotency_key=?
+2025-12-29T16:35:41.959+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=? for update
+Hibernate: 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=? for update
+2025-12-29T16:35:41.967+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=? for update
+Hibernate: 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=? for update
+2025-12-29T16:35:41.972+01:00  INFO 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Transfer completed - ID: 4543bf0f-92a0-4965-86a5-62dc329ecc16, Sender Balance: 7000, Receiver Balance: 8000
+2025-12-29T16:35:41.981+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    insert 
+    into
+        transactions
+        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        transactions
+        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-12-29T16:35:41.985+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    insert 
+    into
+        transactions
+        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        transactions
+        (amount, balance_after, created_at, description, idempotency_key, related_wallet_id, transfer_id, type, wallet_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-12-29T16:35:41.988+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    update
+        wallets 
+    set
+        balance=?,
+        currency=?,
+        name=?,
+        updated_at=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+Hibernate: 
+    update
+        wallets 
+    set
+        balance=?,
+        currency=?,
+        name=?,
+        updated_at=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+2025-12-29T16:35:42.012+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    update
+        wallets 
+    set
+        balance=?,
+        currency=?,
+        name=?,
+        updated_at=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+Hibernate: 
+    update
+        wallets 
+    set
+        balance=?,
+        currency=?,
+        name=?,
+        updated_at=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+2025-12-29T16:35:42.035+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/a8325cd5-18a4-47a4-a1d3-4faba19d1be6
+2025-12-29T16:35:42.035+01:00 DEBUG 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Getting wallet: a8325cd5-18a4-47a4-a1d3-4faba19d1be6
+2025-12-29T16:35:42.036+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=?
+Hibernate: 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.created_at,
+        w1_0.currency,
+        w1_0.name,
+        w1_0.updated_at,
+        w1_0.version 
+    from
+        wallets w1_0 
+    where
+        w1_0.id=?
+2025-12-29T16:35:42.043+01:00  INFO 34076 --- [wallet-service] [           main] com.wallet.controller.WalletController   : GET /wallets/d5335db5-dc46-493b-aa99-013491e1bc9d
+2025-12-29T16:35:42.043+01:00 DEBUG 34076 --- [wallet-service] [           main] c.wallet.service.impl.WalletServiceImpl  : Getting wallet: d5335db5-dc46-493b-aa99-013491e1bc9d
+2025-12-29T16:35:42.045+01:00 DEBUG 34076 --- [wallet-service] [           main] org.hibernate.SQL                        : 
     select
         w1_0.id,
         w1_0.balance,

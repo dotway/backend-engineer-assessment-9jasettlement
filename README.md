@@ -328,7 +328,9 @@ src/main/java/com/wallet/
 │   ├── WalletRepository.java        # Wallet data access
 │   └── TransactionRepository.java   # Transaction data access
 └── service/
-    └── WalletService.java           # Business logic
+    ├── WalletService.java           # Service interface
+    └── impl/
+        └── WalletServiceImpl.java   # Service implementation
 ```
 
 ## Production Deployment
