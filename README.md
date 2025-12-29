@@ -302,6 +302,8 @@ curl -s -X POST $BASE_URL/transactions \
 ```
 src/main/java/com/wallet/
 ├── WalletServiceApplication.java    # Main application entry point
+├── constants/
+│   └── WalletConstants.java         # Application-wide constants
 ├── controller/
 │   ├── WalletController.java        # Wallet REST endpoints
 │   └── TransactionController.java   # Transaction REST endpoints
@@ -315,6 +317,8 @@ src/main/java/com/wallet/
 ├── entity/
 │   ├── Wallet.java                  # Wallet entity
 │   └── Transaction.java             # Transaction entity
+├── enums/
+│   └── TransactionType.java         # Transaction type enum
 ├── exception/
 │   ├── GlobalExceptionHandler.java  # Global error handling
 │   ├── WalletNotFoundException.java

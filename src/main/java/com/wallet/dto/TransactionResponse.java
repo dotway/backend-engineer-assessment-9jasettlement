@@ -1,5 +1,6 @@
 package com.wallet.dto;
 
+import com.wallet.constants.WalletConstants;
 import com.wallet.entity.Transaction;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -88,9 +89,8 @@ public class TransactionResponse {
      */
     private static String formatAmount(Long amount) {
         if (amount == null) return "0.00";
-        long wholePart = amount / 100;
-        long decimalPart = Math.abs(amount % 100);
+        long wholePart = amount / WalletConstants.MINOR_UNITS_DIVISOR;
+        long decimalPart = Math.abs(amount % WalletConstants.MINOR_UNITS_DIVISOR);
         return String.format("%d.%02d", wholePart, decimalPart);
     }
 }
-

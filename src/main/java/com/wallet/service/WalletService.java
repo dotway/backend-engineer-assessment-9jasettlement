@@ -1,9 +1,10 @@
 package com.wallet.service;
 
+import com.wallet.constants.WalletConstants;
 import com.wallet.dto.*;
 import com.wallet.entity.Transaction;
-import com.wallet.entity.Transaction.TransactionType;
 import com.wallet.entity.Wallet;
+import com.wallet.enums.TransactionType;
 import com.wallet.exception.InsufficientBalanceException;
 import com.wallet.exception.InvalidTransactionException;
 import com.wallet.exception.WalletNotFoundException;
@@ -14,7 +15,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.time.LocalDateTime;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -44,8 +44,12 @@ public class WalletService {
 
         Wallet wallet = Wallet.builder()
                 .name(request.getName())
-                .balance(request.getInitialBalance() != null ? request.getInitialBalance() : 0L)
-                .currency(request.getCurrency() != null ? request.getCurrency() : "USD")
+                .balance(request.getInitialBalance() != null 
+                        ? request.getInitialBalance() 
+                        : WalletConstants.DEFAULT_BALANCE)
+                .currency(request.getCurrency() != null 
+                        ? request.getCurrency() 
+                        : WalletConstants.DEFAULT_CURRENCY)
                 .build();
 
         Wallet savedWallet = walletRepository.save(wallet);
@@ -166,9 +170,8 @@ public class WalletService {
         }
 
         // Check for idempotency - return existing transfer if key exists
-        // We use a composite key for transfers: "transfer:{idempotencyKey}:out"
-        String senderKey = "transfer:" + request.getIdempotencyKey() + ":out";
-        String receiverKey = "transfer:" + request.getIdempotencyKey() + ":in";
+        String senderKey = buildTransferSenderKey(request.getIdempotencyKey());
+        String receiverKey = buildTransferReceiverKey(request.getIdempotencyKey());
 
         Optional<Transaction> existingSenderTx = 
                 transactionRepository.findByIdempotencyKey(senderKey);
@@ -260,6 +263,24 @@ public class WalletService {
     }
 
     /**
+     * Build transfer sender idempotency key.
+     */
+    private String buildTransferSenderKey(String idempotencyKey) {
+        return WalletConstants.TRANSFER_SENDER_KEY_PREFIX 
+                + idempotencyKey 
+                + WalletConstants.TRANSFER_SENDER_KEY_SUFFIX;
+    }
+
+    /**
+     * Build transfer receiver idempotency key.
+     */
+    private String buildTransferReceiverKey(String idempotencyKey) {
+        return WalletConstants.TRANSFER_SENDER_KEY_PREFIX 
+                + idempotencyKey 
+                + WalletConstants.TRANSFER_RECEIVER_KEY_SUFFIX;
+    }
+
+    /**
      * Build transfer response from transaction entities.
      */
     private TransferResponse buildTransferResponse(
@@ -285,9 +306,8 @@ public class WalletService {
      */
     private String formatAmount(Long amount) {
         if (amount == null) return "0.00";
-        long wholePart = amount / 100;
-        long decimalPart = Math.abs(amount % 100);
+        long wholePart = amount / WalletConstants.MINOR_UNITS_DIVISOR;
+        long decimalPart = Math.abs(amount % WalletConstants.MINOR_UNITS_DIVISOR);
         return String.format("%d.%02d", wholePart, decimalPart);
     }
 }
-

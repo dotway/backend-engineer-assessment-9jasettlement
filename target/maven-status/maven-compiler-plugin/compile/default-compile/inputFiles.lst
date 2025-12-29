@@ -1,5 +1,6 @@
 C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\repository\TransactionRepository.java
 C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\controller\WalletController.java
+C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\constants\WalletConstants.java
 C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\dto\TransactionResponse.java
 C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\dto\TransferResponse.java
 C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\exception\InsufficientBalanceException.java
@@ -9,6 +10,7 @@ C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\service\Wal
 C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\entity\Transaction.java
 C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\dto\TransferRequest.java
 C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\repository\WalletRepository.java
+C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\enums\TransactionType.java
 C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\entity\Wallet.java
 C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\exception\GlobalExceptionHandler.java
 C:\Users\AyemidotunOjuolape\Desktop\codeInt\src\main\java\com\wallet\controller\TransactionController.java

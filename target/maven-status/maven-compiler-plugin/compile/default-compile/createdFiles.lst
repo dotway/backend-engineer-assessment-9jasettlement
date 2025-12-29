@@ -10,7 +10,7 @@ com\wallet\entity\Wallet$WalletBuilder.class
 com\wallet\entity\Transaction.class
 com\wallet\WalletServiceApplication.class
 com\wallet\entity\Transaction$TransactionBuilder.class
-com\wallet\entity\Transaction$TransactionType.class
+com\wallet\enums\TransactionType.class
 com\wallet\dto\WalletResponse.class
 com\wallet\exception\GlobalExceptionHandler$ErrorResponse.class
 com\wallet\controller\TransactionController.class
@@ -19,6 +19,7 @@ com\wallet\dto\TransactionResponse.class
 com\wallet\dto\TransactionRequest.class
 com\wallet\dto\TransferRequest.class
 com\wallet\exception\InvalidTransactionException.class
+com\wallet\constants\WalletConstants.class
 com\wallet\dto\WalletResponse$WalletResponseBuilder.class
 com\wallet\dto\TransferRequest$TransferRequestBuilder.class
 com\wallet\dto\CreateWalletRequest.class

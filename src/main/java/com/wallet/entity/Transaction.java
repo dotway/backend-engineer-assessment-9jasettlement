@@ -1,5 +1,6 @@
 package com.wallet.entity;
 
+import com.wallet.enums.TransactionType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -92,12 +93,4 @@ public class Transaction {
     protected void onCreate() {
         createdAt = LocalDateTime.now();
     }
-
-    public enum TransactionType {
-        CREDIT,
-        DEBIT,
-        TRANSFER_IN,
-        TRANSFER_OUT
-    }
 }
-
