@@ -29,7 +29,7 @@ A simple backend service that supports wallet operations including creating wall
 
 ```bash
 # Clone the repository
-cd codeInt
+cd backend-engineer-assessment-9jasettlement
 
 # Build the project
 mvn clean install
