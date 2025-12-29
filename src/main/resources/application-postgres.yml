@@ -1,0 +1,26 @@
+# Wallet Service - PostgreSQL Configuration
+# Activate with: --spring.profiles.active=postgres
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/walletdb
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+  h2:
+    console:
+      enabled: false
+
+logging:
+  level:
+    com.wallet: INFO
+    org.springframework.transaction: WARN
+    org.hibernate.SQL: WARN
+
