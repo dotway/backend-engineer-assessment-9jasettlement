@@ -40,6 +40,22 @@ mvn spring-boot:run
 
 The service will start at `http://localhost:8080`
 
+### Production Deployment
+
+For production, use PostgreSQL:
+
+1. Create the database:
+```sql
+CREATE DATABASE walletdb;
+```
+
+2. Run with PostgreSQL profile:
+```bash
+export DB_USERNAME=your_username
+export DB_PASSWORD=your_password
+mvn spring-boot:run -Dspring-boot.run.profiles=postgres
+```
+
 ### 2. Access H2 Console (Development)
 
 - URL: http://localhost:8080/h2-console
