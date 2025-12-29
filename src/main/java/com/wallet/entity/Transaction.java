@@ -11,8 +11,7 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 /**
- * Entity representing a transaction on a wallet.
- * 
+ * Entity representing a transaction on a wallet.*
  * Transactions can be:
  * - CREDIT: Adding funds to a wallet
  * - DEBIT: Removing funds from a wallet

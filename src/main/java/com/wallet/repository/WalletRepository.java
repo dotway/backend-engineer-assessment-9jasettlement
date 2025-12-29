@@ -18,7 +18,7 @@ import java.util.UUID;
 public interface WalletRepository extends JpaRepository<Wallet, UUID> {
 
     /**
-     * Find wallet by ID with pessimistic write lock.
+     * Find a wallet by ID with pessimistic write lock.
      * Used during balance updates to prevent concurrent modifications.
      */
     @Lock(LockModeType.PESSIMISTIC_WRITE)

@@ -52,7 +52,7 @@ public class WalletResponse {
     }
 
     /**
-     * Format balance from minor units to display format.
+     * Format balance from minor units to display a format.
      * E.g., 1050 -> "10.50"
      */
     private static String formatBalance(Long balance) {

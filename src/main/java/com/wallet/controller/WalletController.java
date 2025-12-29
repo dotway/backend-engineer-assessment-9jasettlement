@@ -12,13 +12,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
-/**
- * REST controller for wallet operations.
- * 
- * Endpoints:
- * - POST /wallets - Create a new wallet
- * - GET /wallets/{id} - Get wallet details
- */
 @RestController
 @RequestMapping("/wallets")
 @RequiredArgsConstructor
@@ -30,7 +23,7 @@ public class WalletController {
     /**
      * Create a new wallet.
      *
-     * @param request the wallet creation request containing optional name, 
+     * @param request the wallet creation request containing an optional name,
      *                currency (default USD), and initial balance (default 0)
      * @return the created wallet with HTTP 201
      */

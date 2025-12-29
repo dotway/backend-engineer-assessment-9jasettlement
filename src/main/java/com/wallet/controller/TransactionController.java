@@ -12,13 +12,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-/**
- * REST controller for transaction operations.
- * 
- * Endpoints:
- * - POST /transactions - Credit or debit a wallet
- * - POST /transactions/transfer - Transfer between two wallets
- */
 @RestController
 @RequestMapping("/transactions")
 @RequiredArgsConstructor
@@ -29,7 +22,7 @@ public class TransactionController {
 
     /**
      * Process a credit or debit transaction.
-     *
+     * <p>
      * Rules:
      * - Debits must not make the balance negative
      * - Re-using the same idempotency_key will not apply the transaction twice
@@ -53,7 +46,7 @@ public class TransactionController {
 
     /**
      * Transfer funds between two wallets atomically.
-     *
+     * <p>
      * This operation debits the sender and credits the receiver in a single
      * atomic transaction. If either operation fails, the entire transfer
      * is rolled back.

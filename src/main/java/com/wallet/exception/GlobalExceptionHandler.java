@@ -20,7 +20,7 @@ import java.util.Map;
 public class GlobalExceptionHandler {
 
     /**
-     * Handle wallet not found exceptions.
+     * Handle wallet didn't find exceptions.
      */
     @ExceptionHandler(WalletNotFoundException.class)
     public ResponseEntity<ErrorResponse> handleWalletNotFound(WalletNotFoundException ex) {

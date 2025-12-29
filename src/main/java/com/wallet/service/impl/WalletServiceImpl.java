@@ -19,12 +19,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Optional;
 import java.util.UUID;
 
-/**
- * Implementation of wallet service operations.
- * 
- * All balance-modifying operations are transactional to ensure data consistency.
- * Idempotency is enforced using unique idempotency keys.
- */
 @Service
 @RequiredArgsConstructor
 @Slf4j
@@ -71,7 +65,7 @@ public class WalletServiceImpl implements WalletService {
         log.info("Processing transaction - Type: {}, Wallet: {}, Amount: {}, Key: {}",
                 request.getType(), request.getWalletId(), request.getAmount(), request.getIdempotencyKey());
 
-        // Check for idempotency - return existing transaction if key exists
+        // Check for idempotency - return existing transaction if the key exists
         Optional<Transaction> existingTransaction = 
                 transactionRepository.findByIdempotencyKey(request.getIdempotencyKey());
         
@@ -99,7 +93,7 @@ public class WalletServiceImpl implements WalletService {
         wallet.setBalance(newBalance);
         walletRepository.save(wallet);
 
-        // Create transaction record
+        // Create a transaction record
         Transaction transaction = Transaction.builder()
                 .idempotencyKey(request.getIdempotencyKey())
                 .wallet(wallet)
@@ -123,7 +117,7 @@ public class WalletServiceImpl implements WalletService {
                 request.getFromWalletId(), request.getToWalletId(), 
                 request.getAmount(), request.getIdempotencyKey());
 
-        // Validate: cannot transfer to same wallet
+        // Validate: cannot transfer to the same wallet
         if (request.getFromWalletId().equals(request.getToWalletId())) {
             throw new InvalidTransactionException("Cannot transfer to the same wallet");
         }
@@ -216,7 +210,7 @@ public class WalletServiceImpl implements WalletService {
     }
 
     /**
-     * Calculate new balance based on transaction type.
+     * Calculate a new balance based on a transaction type.
      */
     private Long calculateNewBalance(Wallet wallet, TransactionType type, Long amount) {
         if (type == TransactionType.CREDIT) {

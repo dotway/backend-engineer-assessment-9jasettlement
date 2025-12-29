@@ -9,8 +9,6 @@ public final class WalletConstants {
     }
     public static final String DEFAULT_CURRENCY = "NGN";
 
-    public static final int CURRENCY_CODE_LENGTH = 3;
-
     public static final Long DEFAULT_BALANCE = 0L;
 
     public static final int MINOR_UNITS_DIVISOR = 100;
